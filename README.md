@@ -1,12 +1,29 @@
-# Antigravity 2.0 MERN + Next.js Full-Stack Course
+# Awesome Antigravity 2.0 MERN + Next.js Full-Stack Course
 
-A complete project-based course for junior MERN stack developers who want to use **Google Antigravity 2.0** as an agentic development partner instead of a simple code generator.
+A complete Markdown-based course for junior MERN stack developers who want to use **Google Antigravity 2.0** as an agentic development partner instead of using AI as a random code generator.
 
-This course teaches students how to use Antigravity responsibly from **project planning → UI planning → Figma/design implementation → frontend → backend → full-stack integration → testing → deployment → final portfolio presentation**.
+This course teaches a practical, project-first workflow:
+
+```txt
+NotebookLM learning layer
+→ Antigravity setup
+→ spec-first planning
+→ architecture thinking
+→ reusable SKILL.md workflows
+→ Figma/design-to-code
+→ frontend implementation
+→ backend implementation
+→ full-stack integration
+→ testing and browser verification
+→ deployment
+→ final capstone project
+→ portfolio and interview preparation
+→ safe AI coding workflow
+```
 
 ---
 
-## Course purpose
+## Why this course exists
 
 Most beginner developers use AI tools like this:
 
@@ -14,7 +31,7 @@ Most beginner developers use AI tools like this:
 Build me a MERN app.
 ```
 
-That creates fragile projects.
+That usually creates fragile projects that students cannot explain, test, or deploy properly.
 
 This course trains students to use Antigravity like this:
 
@@ -27,13 +44,14 @@ Build one layer at a time.
 Review every change.
 Verify in browser.
 Test APIs.
+Secure the workflow.
 Deploy safely.
 Explain the project confidently.
 ```
 
 The goal is not to become dependent on AI.
 
-The goal is to become a **superpowered MERN developer** who can use Antigravity to build faster while still understanding the full system.
+The goal is to become a **superpowered MERN + Next.js developer** who can use Antigravity responsibly while still understanding the full system.
 
 ---
 
@@ -43,51 +61,180 @@ This course is designed for:
 
 - Junior MERN stack developers
 - Programming Hero-style full-stack learners
-- Students who know React, Node.js, Express, MongoDB basics
-- Developers who want to use AI tools professionally
+- Students who know React, Node.js, Express, and MongoDB basics
+- Developers who want to use AI coding agents professionally
 - Students preparing for job tasks, internships, or portfolio projects
-- Developers who want to learn Figma-to-code, full-stack integration, testing, and deployment
+- Developers who want to learn Figma-to-code, full-stack integration, testing, deployment, and portfolio presentation
+- Mentors who want a structured AI-assisted full-stack course for students
 
 ---
 
-## What students will be able to do after finishing
+## What students will be able to do
 
-After completing the course, a student should be able to:
+After completing this course, a student should be able to:
 
 1. Use Antigravity safely without blindly trusting generated code.
-2. Create project briefs, PRDs, user stories, API contracts, and database schemas.
-3. Understand full-stack architecture before writing code.
-4. Create reusable `SKILL.md` files for repeatable workflows.
-5. Convert Figma/design references into React + Tailwind UI.
-6. Build frontend pages with reusable components and mock data.
-7. Build Express + MongoDB APIs with validation, auth, and authorization.
-8. Connect frontend and backend with a clean API client.
-9. Test user/admin flows through browser QA, API tests, and E2E tests.
-10. Deploy the project using Vercel, Render, and MongoDB Atlas.
-11. Create a final real-world portfolio project.
-12. Explain the project in interviews with confidence.
+2. Use NotebookLM to study official docs, videos, course modules, and project files.
+3. Create project briefs, PRDs, user stories, API contracts, and database schemas.
+4. Understand full-stack architecture before writing code.
+5. Create reusable `SKILL.md` files for repeatable AI-assisted workflows.
+6. Convert Figma/design references into React + Tailwind UI.
+7. Build frontend pages with reusable components and mock data.
+8. Build Express + MongoDB APIs with validation, authentication, and role-based authorization.
+9. Connect frontend and backend with a clean API client.
+10. Test user/admin flows through browser QA, API tests, and E2E tests.
+11. Deploy with Vercel, Render, and MongoDB Atlas.
+12. Build a final real-world portfolio project.
+13. Present the project through README, case study, LinkedIn post, resume bullets, and interview answers.
+14. Apply safe AI coding practices around secrets, prompt injection, tool approval, and generated-code review.
+15. Continue evolving into advanced Next.js + TypeScript full-stack development.
 
 ---
 
-## Recommended course structure
+## Recommended tools
 
-This course can be consumed in two ways:
+| Tool | Purpose |
+|---|---|
+| Google Antigravity 2.0 | Agentic development environment |
+| NotebookLM | Learning layer for docs, videos, modules, and project files |
+| GitHub | Repository hosting and submission |
+| Figma | Design inspection and handoff |
+| Google Stitch optional | UI concept generation |
+| Chrome DevTools | Browser verification and debugging |
+| Postman / Thunder Client / Insomnia | API testing |
+| MongoDB Atlas | Cloud database |
+| Vercel | Frontend deployment |
+| Render | Backend deployment |
+| Playwright | E2E testing |
+| Vitest + React Testing Library | Component testing |
 
-### Option 1: Eid Holiday Sprint
+---
+
+## Repository structure
+
+This is a **Markdown-only course repository**.
+
+```txt
+awesome-antigravity-2-mern-nextjs-fullstack-course/
+  README.md
+  COURSE_MAP.md
+  MENTOR_EVALUATION_GUIDE.md
+  TROUBLESHOOTING_PLAYBOOK.md
+  CONTRIBUTING.md
+  CHANGELOG.md
+  LICENSE
+  .gitignore
+
+  00-introduction.md
+  01-utilize-notebooklm.md
+  02-module-01-antigravity-setup.md
+  03-module-02-spec-first-development.md
+  04-module-03-codebase-architecture-thinking.md
+  05-module-04-skill-md-mastery.md
+  06-module-05-figma-to-code-workflow.md
+  07-bonus-module-05-5-website-ui-replication-lab.md
+  08-module-06-frontend-implementation.md
+  09-module-07-backend-implementation.md
+  10-module-08-fullstack-integration.md
+  11-module-09-testing-browser-verification-qa.md
+  12-module-10-deployment-production-readiness.md
+  13-final-assignment.md
+  14-post-course-portfolio-case-study-interview-prep.md
+  15-advanced-module-nextjs-typescript-fullstack-evolution.md
+  16-bonus-module-reusable-skill-md-library.md
+  17-bonus-module-ai-coding-security-safe-agent-workflow.md
+  18-course-resource-index-and-update-log.md
+```
+
+---
+
+## Start here
+
+| Order | File | Purpose |
+|---:|---|---|
+| 0 | [`00-introduction.md`](./00-introduction.md) | Course introduction, expectations, learning workflow |
+| 1 | [`01-utilize-notebooklm.md`](./01-utilize-notebooklm.md) | How to use NotebookLM as the learning layer |
+| 2 | [`COURSE_MAP.md`](./COURSE_MAP.md) | Quick module map, time estimate, completion path |
+| 3 | [`TROUBLESHOOTING_PLAYBOOK.md`](./TROUBLESHOOTING_PLAYBOOK.md) | Common GitHub, npm, MERN, deployment, and Antigravity fixes |
+
+---
+
+## Full course navigation
+
+### Foundation and planning
+
+| Module | File | Focus |
+|---:|---|---|
+| Intro | [`00-introduction.md`](./00-introduction.md) | What to expect, how to consume the course, outcomes |
+| NotebookLM | [`01-utilize-notebooklm.md`](./01-utilize-notebooklm.md) | Study guides, quizzes, flashcards, source-grounded learning |
+| 1 | [`02-module-01-antigravity-setup.md`](./02-module-01-antigravity-setup.md) | Antigravity setup, safety, quota-aware workflow |
+| 2 | [`03-module-02-spec-first-development.md`](./03-module-02-spec-first-development.md) | Project specs, PRD, user stories, API contract, database schema |
+| 3 | [`04-module-03-codebase-architecture-thinking.md`](./04-module-03-codebase-architecture-thinking.md) | Full-stack architecture and codebase understanding |
+| 4 | [`05-module-04-skill-md-mastery.md`](./05-module-04-skill-md-mastery.md) | Creating project-specific `SKILL.md` files |
+
+### UI, frontend, backend, and integration
+
+| Module | File | Focus |
+|---:|---|---|
+| 5 | [`06-module-05-figma-to-code-workflow.md`](./06-module-05-figma-to-code-workflow.md) | Figma/design-to-code with React and Tailwind |
+| 5.5 | [`07-bonus-module-05-5-website-ui-replication-lab.md`](./07-bonus-module-05-5-website-ui-replication-lab.md) | Bonus UI replication lab with DevTools, Stitch, and animation |
+| 6 | [`08-module-06-frontend-implementation.md`](./08-module-06-frontend-implementation.md) | React frontend with mock data, routes, components, state |
+| 7 | [`09-module-07-backend-implementation.md`](./09-module-07-backend-implementation.md) | Express, TypeScript, MongoDB, JWT, role-based APIs |
+| 8 | [`10-module-08-fullstack-integration.md`](./10-module-08-fullstack-integration.md) | Connecting frontend and backend |
+
+### QA, deployment, capstone, and career packaging
+
+| Module | File | Focus |
+|---:|---|---|
+| 9 | [`11-module-09-testing-browser-verification-qa.md`](./11-module-09-testing-browser-verification-qa.md) | Testing, browser QA, API tests, Playwright, Lighthouse |
+| 10 | [`12-module-10-deployment-production-readiness.md`](./12-module-10-deployment-production-readiness.md) | Vercel, Render, MongoDB Atlas, production readiness |
+| Final | [`13-final-assignment.md`](./13-final-assignment.md) | Final real-world full-stack capstone project |
+| Post-course | [`14-post-course-portfolio-case-study-interview-prep.md`](./14-post-course-portfolio-case-study-interview-prep.md) | Portfolio case study, README polish, interview preparation |
+
+### Advanced and bonus modules
+
+| Module | File | Focus |
+|---:|---|---|
+| Advanced | [`15-advanced-module-nextjs-typescript-fullstack-evolution.md`](./15-advanced-module-nextjs-typescript-fullstack-evolution.md) | Move from classic MERN to modern Next.js + TypeScript full-stack architecture |
+| Bonus | [`16-bonus-module-reusable-skill-md-library.md`](./16-bonus-module-reusable-skill-md-library.md) | Build reusable personal `SKILL.md` workflows |
+| Bonus/Safety | [`17-bonus-module-ai-coding-security-safe-agent-workflow.md`](./17-bonus-module-ai-coding-security-safe-agent-workflow.md) | Safe AI coding, secrets, prompt injection, dependency review, human-in-the-loop workflow |
+| Resource Index | [`18-course-resource-index-and-update-log.md`](./18-course-resource-index-and-update-log.md) | Official links, video search terms, update log, maintenance checklist |
+
+---
+
+## Support and maintenance files
+
+| File | Purpose |
+|---|---|
+| [`COURSE_MAP.md`](./COURSE_MAP.md) | Quick module map and sprint plan |
+| [`MENTOR_EVALUATION_GUIDE.md`](./MENTOR_EVALUATION_GUIDE.md) | Mentor scoring, red flags, review questions |
+| [`TROUBLESHOOTING_PLAYBOOK.md`](./TROUBLESHOOTING_PLAYBOOK.md) | Common Git, npm, MERN, CORS, deployment, and Antigravity fixes |
+| [`CONTRIBUTING.md`](./CONTRIBUTING.md) | Contribution rules for improving the course |
+| [`CHANGELOG.md`](./CHANGELOG.md) | Version history and course updates |
+| [`LICENSE`](./LICENSE) | MIT license |
+| [`.gitignore`](./.gitignore) | Files/folders that should not be committed |
+
+---
+
+## Eid holiday sprint plan
 
 For students with Eid holiday from **25 May to 31 May**, use this compressed sprint format:
 
-| Day | Focus |
-|---|---|
-| Day 1 | Introduction, NotebookLM workflow, Antigravity setup |
-| Day 2 | Spec-first planning and architecture |
-| Day 3 | `SKILL.md` mastery and Figma-to-code workflow |
-| Day 4 | Frontend implementation |
-| Day 5 | Backend implementation |
-| Day 6 | Full-stack integration and testing |
-| Day 7 | Deployment, final assignment planning, portfolio preparation |
+| Day | Focus | Files |
+|---|---|---|
+| Day 1 | Setup and learning workflow | `00`, `01`, `02` |
+| Day 2 | Planning and architecture | `03`, `04` |
+| Day 3 | Skills and safe AI workflow | `05`, `16`, `17` |
+| Day 4 | Design-to-code | `06`, optional `07` |
+| Day 5 | Frontend and backend | `08`, `09` |
+| Day 6 | Integration and testing | `10`, `11` |
+| Day 7 | Deployment and final assignment planning | `12`, `13`, `14` overview |
 
-### Option 2: Full Bootcamp Pace
+The final assignment should continue after Eid if students want a strong portfolio project.
+
+---
+
+## Full bootcamp pace
 
 Recommended for deeper learning:
 
@@ -100,116 +247,13 @@ Recommended for deeper learning:
 | QA and Deployment | Modules 9–10 | 2–4 days |
 | Capstone | Final Assignment | 3–7 days |
 | Career Packaging | Post-Course Module | 1–2 days |
-
----
-
-## How to use this repository
-
-Students should follow this order:
-
-1. Read the module file.
-2. Add the module file and official resources into NotebookLM.
-3. Generate a study guide using the provided NotebookLM prompts.
-4. Watch the required videos.
-5. Complete practice tasks.
-6. Use Antigravity prompts carefully.
-7. Create the required deliverables.
-8. Complete the quiz.
-9. Write the reflection.
-10. Move to the next module only after meeting the completion standard.
-
-Do not skip practice tasks.
-
-Do not skip verification.
-
-Do not skip reflection.
-
----
-
-## Required tools
-
-Students should prepare:
-
-| Tool | Purpose |
-|---|---|
-| Google Antigravity 2.0 | Agentic development environment |
-| VS Code or preferred editor | Code review and manual editing |
-| GitHub | Repository hosting |
-| NotebookLM | Learning from resources, docs, videos, and generated notes |
-| Figma | Design inspection and handoff |
-| Google Stitch optional | UI design ideation |
-| Chrome DevTools | Browser verification and debugging |
-| Postman / Thunder Client / Insomnia | API testing |
-| MongoDB Atlas | Cloud database |
-| Vercel | Frontend deployment |
-| Render | Backend deployment |
-| Playwright | E2E testing |
-| Vitest + React Testing Library | Component testing |
-
----
-
-## Course files and navigation
-
-### Start here
-
-| Order | File | Purpose |
-|---:|---|---|
-| 0 | [`00-introduction.md`](./00-introduction.md) | Course introduction, expectations, learning workflow |
-| 1 | [`01-utilize-notebooklm.md`](./01-utilize-notebooklm.md) | How to use NotebookLM as the learning layer |
-| 2 | [`02-module-01-antigravity-setup.md`](./02-module-01-antigravity-setup.md) | Antigravity setup, safety, quota-aware workflow |
-
-### Core learning modules
-
-| Module | File | Focus |
-|---:|---|---|
-| 2 | [`03-module-02-spec-first-development.md`](./03-module-02-spec-first-development.md) | Project specs, PRD, user stories, API contract, database schema |
-| 3 | [`04-module-03-codebase-architecture-thinking.md`](./04-module-03-codebase-architecture-thinking.md) | Full-stack architecture and codebase understanding |
-| 4 | [`05-module-04-skill-md-mastery.md`](./05-module-04-skill-md-mastery.md) | Creating reusable `SKILL.md` files |
-| 5 | [`06-module-05-figma-to-code-workflow.md`](./06-module-05-figma-to-code-workflow.md) | Figma/design-to-code with React and Tailwind |
-| 5.5 | [`07-bonus-module-05-5-website-ui-replication-lab.md`](./07-bonus-module-05-5-website-ui-replication-lab.md) | Bonus UI replication lab with DevTools, Stitch, animation |
-| 6 | [`08-module-06-frontend-implementation.md`](./08-module-06-frontend-implementation.md) | React frontend with mock data, routes, components, state |
-| 7 | [`09-module-07-backend-implementation.md`](./09-module-07-backend-implementation.md) | Express, TypeScript, MongoDB, JWT, role-based APIs |
-| 8 | [`10-module-08-fullstack-integration.md`](./10-module-08-fullstack-integration.md) | Connecting frontend and backend |
-| 9 | [`11-module-09-testing-browser-verification-qa.md`](./11-module-09-testing-browser-verification-qa.md) | Testing, browser QA, API tests, Playwright, Lighthouse |
-| 10 | [`12-module-10-deployment-production-readiness.md`](./12-module-10-deployment-production-readiness.md) | Vercel, Render, MongoDB Atlas, production readiness |
-
-### Capstone and career packaging
-
-| Order | File | Focus |
-|---:|---|---|
-| 13 | [`13-final-assignment.md`](./13-final-assignment.md) | Final real-world full-stack project |
-| 14 | [`14-post-course-portfolio-case-study-interview-prep.md`](./14-post-course-portfolio-case-study-interview-prep.md) | Portfolio case study, README polish, interview preparation |
-
----
-
-## Suggested final assignment categories
-
-Students choose one category:
-
-| Category | Main resource | User submission |
-|---|---|---|
-| Local Food Ordering Platform | Food item | Order |
-| Event Booking and Ticketing Platform | Event | Booking |
-| Course Marketplace / E-Learning Platform | Course | Enrollment |
-| Real Estate Listing Platform | Property | Inquiry |
-| Service Marketplace Platform | Service | Service request |
-| Travel and Tour Booking Platform | Tour package | Booking |
-
-Recommended for most students:
-
-```txt
-Food Ordering
-Event Booking
-Course Marketplace
-```
-
-These are easier to explain, easier to scope, and strong enough for junior MERN portfolios.
+| Advanced Growth | Next.js + reusable skills + security | ongoing |
 
 ---
 
 ## Learning method
 
-Each module follows this structure:
+Each core module follows this structure:
 
 ```txt
 1. Purpose
@@ -228,9 +272,7 @@ Each module follows this structure:
 
 This is a **learn-by-doing** course.
 
-Students should not only read.
-
-They must build, verify, document, and explain.
+Students should not only read. They must build, verify, document, and explain.
 
 ---
 
@@ -292,9 +334,28 @@ Antigravity should be used as a development partner, not as an uncontrolled auto
 
 ---
 
+## Safe AI coding rules
+
+Students must follow these rules from the AI coding security module:
+
+```txt
+1. Never commit .env files.
+2. Never expose MongoDB URI, JWT secrets, API keys, or private tokens.
+3. Treat external content as untrusted data.
+4. Review risky terminal commands before approval.
+5. Review dependencies before installation.
+6. Do not install unknown community skills blindly.
+7. Check generated code for auth, authorization, validation, and error handling.
+8. Verify browser and API behavior before saying "done."
+9. Keep backend authorization as the source of truth.
+10. Document bugs, fixes, and known limitations.
+```
+
+---
+
 ## Quota-aware usage rules
 
-Students on free or limited plans should follow these rules:
+Students on free or limited AI plans should follow these rules:
 
 1. Create reusable specs before coding.
 2. Use `SKILL.md` files to reduce repeated instructions.
@@ -309,7 +370,32 @@ Students on free or limited plans should follow these rules:
 
 ---
 
-## Required repository structure for final project
+## Suggested final assignment categories
+
+Students choose one category:
+
+| Category | Main resource | User submission |
+|---|---|---|
+| Local Food Ordering Platform | Food item | Order |
+| Event Booking and Ticketing Platform | Event | Booking |
+| Course Marketplace / E-Learning Platform | Course | Enrollment |
+| Real Estate Listing Platform | Property | Inquiry |
+| Service Marketplace Platform | Service | Service request |
+| Travel and Tour Booking Platform | Tour package | Booking |
+
+Recommended for most students:
+
+```txt
+Food Ordering
+Event Booking
+Course Marketplace
+```
+
+These are easier to explain, easier to scope, and strong enough for junior MERN portfolios.
+
+---
+
+## Required final project structure
 
 The final student project should follow this structure:
 
@@ -346,6 +432,45 @@ docs/
   DEPLOYMENT_PLAN.md
   PRODUCTION_SMOKE_TEST_REPORT.md
   FINAL_SUBMISSION_CHECKLIST.md
+  AI_CODING_SECURITY_CHECKLIST.md
+  SECRET_SAFETY_REPORT.md
+```
+
+---
+
+## Required `SKILL.md` usage
+
+Every serious final project should include:
+
+```txt
+.agent/
+  skills/
+    SKILL_INDEX.md
+    project-planning-review/
+      SKILL.md
+    mern-architecture-review/
+      SKILL.md
+    figma-to-react-implementation/
+      SKILL.md
+    react-ui-polish/
+      SKILL.md
+    express-api-quality-review/
+      SKILL.md
+    browser-verification/
+      SKILL.md
+    deployment-readiness-review/
+      SKILL.md
+```
+
+Strong students should also include:
+
+```txt
+mongodb-schema-review
+auth-authorization-review
+fullstack-integration-debugger
+test-plan-generator
+portfolio-readme-generator
+interview-project-explainer
 ```
 
 ---
@@ -355,7 +480,7 @@ docs/
 A student completes the course only when they can say:
 
 ```txt
-I can plan, build, test, deploy, document, and explain a real-world MERN project using Antigravity 2.0 responsibly.
+I can plan, build, test, deploy, document, secure, and explain a real-world MERN/Next.js project using Antigravity 2.0 responsibly.
 ```
 
 At minimum, the student must produce:
@@ -369,14 +494,15 @@ At minimum, the student must produce:
 6. Design source
 7. API documentation
 8. Testing evidence
-9. Deployment evidence
-10. Portfolio case study
-11. Interview explanation
+9. Security review evidence
+10. Deployment evidence
+11. Portfolio case study
+12. Interview explanation
 ```
 
 ---
 
-## Evaluation rubric summary
+## Final project evaluation rubric
 
 | Area | Weight |
 |---|---:|
@@ -405,6 +531,7 @@ Mentors can use this repository to:
 - Run mock interviews
 - Check AI usage maturity
 - Standardize full-stack project submissions
+- Review safe agent workflow practices
 
 Recommended mentor review flow:
 
@@ -419,6 +546,13 @@ Recommended mentor review flow:
 8. Ask one backend/auth question.
 9. Ask one integration bug question.
 10. Ask how the student used Antigravity responsibly.
+11. Ask how the student protected secrets and reviewed generated code.
+```
+
+For a full rubric, use:
+
+```txt
+MENTOR_EVALUATION_GUIDE.md
 ```
 
 ---
@@ -446,6 +580,9 @@ Students can report progress using this format:
 -
 
 ## Bugs faced
+-
+
+## Security/safety checks completed
 -
 
 ## What I learned
@@ -505,6 +642,12 @@ Testing Evidence:
 - Authorization testing completed
 - Production smoke testing completed
 
+Security Evidence:
+- No secrets committed
+- `.env.example` included
+- Backend authorization reviewed
+- AI coding safety checklist completed
+
 Known Limitations:
 - [Limitation 1]
 - [Limitation 2]
@@ -528,6 +671,8 @@ Students must not:
 - Skip browser testing
 - Hide known limitations
 - Submit a project they cannot explain
+- Install unknown dependencies blindly
+- Use unknown community skills without reviewing them
 
 Students must:
 
@@ -539,6 +684,39 @@ Students must:
 - Document bugs and fixes
 - Prepare demo credentials
 - Practice interview explanation
+- Complete safe agent workflow checks
+
+---
+
+## Contribution
+
+Contribution guidelines are available in:
+
+```txt
+CONTRIBUTING.md
+```
+
+Useful contributions include:
+
+- Fixing broken links
+- Improving module clarity
+- Updating outdated tool instructions
+- Adding better practice tasks
+- Improving quizzes and mentor checklists
+- Adding troubleshooting notes
+- Strengthening safe AI coding guidance
+
+---
+
+## License
+
+This course is released under the MIT License.
+
+See:
+
+```txt
+LICENSE
+```
 
 ---
 
@@ -548,6 +726,8 @@ Start here:
 
 [`00-introduction.md`](./00-introduction.md)
 
-Then continue in order.
+Then continue in order using:
 
-Do not jump to the final assignment before completing the foundation, planning, architecture, frontend, backend, testing, and deployment modules.
+[`COURSE_MAP.md`](./COURSE_MAP.md)
+
+Do not jump to the final assignment before completing the foundation, planning, architecture, frontend, backend, testing, deployment, and safe AI workflow modules.
